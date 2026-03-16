@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+		STUDENT FORM
+		</title>
+		<script language="javascript">
+		function f1(){
+		 alert("welcome to form application 🖥️")
+		 }
+		 function f2(){
+		 alaert ("form submitted")
+		 }
+		 </script>
+	</head>
+	
+<body bgcolor="silver" onload="f1()" >
+
+<caption><b> <h1><marquee behavior="scroll" direction="right"  bgcolor= "white">REGISTRATON FORM</marquee></h1></b></caption>
+<table align="center"; style=" border-collapse:collapse"  cellpadding=20 cellspacing=0>
+  <tr><td> <form  >
+            
+            <label for="full-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required></td>
+			<td>
+            
+            <label for="full-name">Last Name</label>
+            <input type=text placeholder="ENTER USER NAME " align=center required></td></tr><br/>
+	<tr>
+         
+         <td>   <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"  placeholder="Enter your email">
+		<td>   <label for="gender ">Gender :</label>
+		    <input type="radio" id="radio" name="radio" required> male
+			<input type="radio" id="radio" name="radio"> female
+			<input type="radio" id="radio" name="radio"> others</td></tr><br/>
+
+   <tr>
+         <td>   <label for="password">Password</label>
+            <input type="password" id="password" name="password"  placeholder="Enter your password"  ></td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	
+        <td>
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password"  placeholder="Confirm your password"></td></tr><br/>
+<tr>
+         
+         <td>   <label for="email">Address</label>
+            <input type="text" id="address" name="address"  placeholder="Enter your address"> </td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<td>   <label> Mobile No:</label>
+			<input type="tele" id="number" name="number"  size =10 ;maxlength="10" placeholder="Enter your mobile number">
+			
+				
+			</td></tr><br/>
+
+<tr>
+         <td>  
+		 <label> Qualification :-</label>
+		        <input type ="radio" size=20 name=c1> INTER 
+				<input type ="radio" size=20 name=c1> DIPLOMA </td>
+		<td>   <label> BRANCH :</label>
+				<select required  > 
+				<optgroup title="🖥️" label="COMPUTERS">
+					<option>IT</option>
+					<option selected>CSE</option>
+					<option>DS</option>
+					<option>AI& ML</option>
+					<option>CYBER</option>
+				</optgroup>
+				<optgroup label="CORE BRANCH"> 
+					<option title="⚡">EEE</option>
+					<option title="🏗️">CIVIL</option>
+					<option title="⌚">ECE </option>
+					<option title="🏎️">MECH </option>
+				</optgroup>
+				</select>
+			</td></tr><br/>
+		<tr> <td>
+				 <label>Marks scored</label>
+				 <input type ="number" max=100">
+				 </td> 
+				 <td>
+				<label> Mark List</label>
+				<input type ="file" required>
+				
+		    
+		</td></tr>
+		 
+
+	
+        <tr> <td>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<button  style=background-color:skyblue type="button" value="Register" align=center onclick="f2()">submit </button></td></tr>
+		</form>
+		</table>
+
+</body>
+
+</html>
