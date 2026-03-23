@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Topgrade <span>LMS</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="regestration.html" class="active">Register</a></li>
+        </ul>
+    </nav>
+
+    <section class="form-area">
+        <div class="form-box">
+            <h2>Sign Up</h2>
+            <form id="studentForm">
+                <label>Full Name</label>
+                <input type="text" id="name" required>
+                
+                <label>Email Address</label>
+                <input type="email" id="email" required>
+                
+                <label>Select Course</label>
+                <select id="course">
+                    <option value="">-- Choose Course --</option>
+                    <option value="frontend">Frontend Mastery</option>
+                    <option value="uiux">UI/UX Fundamentals</option>
+                    <option value="python">Python for Data</option>
+                </select>
+                
+                <button type="submit">Submit Registration</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
